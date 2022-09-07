@@ -7,9 +7,7 @@ const cliente2 = new Cliente("Alice", 88822233309);
 
 
 
-const contaCorrenteRicardo = new ContaCorrente();
-contaCorrenteRicardo.agencia = 1001;
-contaCorrenteRicardo.cliente = cliente1;
+const contaCorrenteRicardo = new ContaCorrente(1001, cliente1);
 
 contaCorrenteRicardo.depositar(200);
 contaCorrenteRicardo.depositar(100);
@@ -20,9 +18,8 @@ const valorDepositado = contaCorrenteRicardo.depositar(200);
 
 
 
-const conta2 = new ContaCorrente();
-conta2.cliente = cliente2;
-conta2.agencia = 1002;
+const conta2 = new ContaCorrente(1002, cliente2);
+
 
 conta2.depositar(50);
 conta2.depositar(100);
