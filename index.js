@@ -36,10 +36,8 @@ contaCorrenteRicardo.tranferir(200, conta2);
 
 
 console.log(valorSacado);
-console.log(valorDepositado);
-
 console.log(contaCorrenteRicardo);
 
-console.log(cliente2);
+
 console.log(valorSacado2);
 console.log(conta2);
